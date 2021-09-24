@@ -1,0 +1,38 @@
+
+This folder contains 
+testfile5_hs  
+train0_5_hs  
+train5_hs
+
+The human training and test set for splice sites used in G. Yeo and C.B. Burge, RECOMB 2003.
+
+5'ss
+----
+Format is as follows:
+> 5 
+aagattg
+
+means that 5'ss aagGTattg (i omitted the GT) is real, and 
+
+> 0
+tttaata
+
+means that 5'ss tttGTaata is a decoy 5'ss
+
+
+3'ss
+----
+Similarly,
+> 3
+tggtcccatatgaattttatt
+
+means that 3'ss tggtcccatatgaattttAGatt is a real site (I omitted the AG), and
+
+> 0
+tggtcccatatgaattttatt
+
+means that 3'ss tggtcccatatgaattttAGatt is a decoy 3'ss
+
+
+
+Refer to geneyeo@mit.edu for questions regarding the dataset.
